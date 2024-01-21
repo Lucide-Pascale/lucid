@@ -1,0 +1,29 @@
+/* Add this to the existing CSS */
+.register-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.register-container p {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.register-container a {
+    color: #6B240C;
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}
+h1{
+    color: #6B240C;
+}
+input{
+    border-radius: 40px;
+}

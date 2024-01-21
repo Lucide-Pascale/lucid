@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+header{
+    background-color: #dda15e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    margin-bottom: 25px;
+    color: black;
+    font-weight: bolder;
+}
+nav{
+display: flex;
+list-style-type: none;
+color: white;
+}
+
+nav ul {
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+margin: 0 15px; /* Adjust the spacing between menu items */
+
+}
+
+nav li a {
+text-decoration: none;
+color: black;
+font-weight: bolder;
+
+}
+
+/* Position the menu to the top right */
+nav {
+margin-left: auto;
+}
+footer{
+    background-color: #dda15e;
+    margin-top: 50px;
+    padding-top: 30px;
+    
+}
+
+.homemenu{
+    text-align: right;
+    list-style-type: none;
+    display: inline-block;
+}
+.homemenu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-item1{
+    margin-right: auto;
+}
+#logo{
+    max-height:80 px;
+    max-width:80 px;
+    margin-right: 800px;
+    
+}
+header h1 h2 {
+    text-align: center;
+    margin-left: 350px;
+}
+.box-image {
+    width:100 px;
+    height: 100 px;
+    overflow: auto;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button1{
+    border-color: #C58940;
+    background-color: #FFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-color: #C58940;
+    width: 100px;
+    height: 60px;
+}
+.button1 :hover{
+    border-color: #FFFF;
+    
+    color:#C58940;
+}
+aside{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    background-color: fefae0;
+}
+button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#get{
+    margin-top: 20px;
+    width:100%;
+    height: 50%;
+    background-color: #FFFF;
+    border-radius: 5px;
+    padding-top: 15px;
+    color: #C58940;
+}
+#get :hover{
+    
+    box-shadow: rgb(134, 131, 131);
+}
